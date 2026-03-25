@@ -1,0 +1,11 @@
+on_game_start = {
+	events = {
+		jerry_event.1
+	}
+	
+}
+on_game_start_country = {
+	events = {
+		jerry_event.1
+	}
+}

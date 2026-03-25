@@ -1,0 +1,24 @@
+namespace = jerry_event
+
+country_event = {
+	id = jerry_event.1
+	hide_window = yes
+	is_triggered_only = no
+	trigger = { always = yes } 
+
+		
+	immediate = {
+	if = {
+	limit = {
+		owner = {
+				has_origin = origin_jerry
+				}
+		is_ai = no 
+		}
+			
+		ruler = { add_trait_no_notify = leader_trait_chosen }
+		ruler = { add_trait_no_notify = trait_Immortality }
+			
+	}
+  }
+ }

@@ -1,0 +1,7 @@
+jerry = {
+	name = JERRY
+
+	sets = {
+		jerry
+	}
+}

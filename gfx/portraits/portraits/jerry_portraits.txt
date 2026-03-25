@@ -1,0 +1,104 @@
+portraits = {
+	
+	#Jerry
+	jerry_default =        { texturefile =  "gfx/models/portraits/jerry/jerry/jerry_default.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+    jerry_cat_ears =        { texturefile =  "gfx/models/portraits/jerry/jerry/jerry_cat_ears.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+    jerry_casual_big_forehead =        {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_casual_big_forehead.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+	jerry_tan = {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_tan.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+    jerry_washing_machine =           {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_washing_machine.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+	jerry_jello_jar = {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_jello_jar.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+	
+	jerry_alice_2 = {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_alice_2.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+	jerry_alice_tan_glasses_smile = {  texturefile =  "gfx/models/portraits/jerry/jerry/jerry_alice_tan_glasses_smile.dds" 
+	greeting_sound = "awawa_greetings"
+	}
+	
+	jerry_sk1 =     {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk1.dds"}
+    jerry_sk2 =     {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk2.dds"}
+    jerry_sk3 =    {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk3.dds"}
+    jerry_sk4 =       {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk4.dds"}
+	jerry_sk5 =    {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk5.dds"}
+    jerry_sk6 =       {  texturefile = "gfx/models/portraits/jerry/jerry/jerry_sk6.dds"}
+	
+	
+
+}
+portrait_groups = {
+ 
+ jerry = {
+     default = jerry_default #The picture used in the horrors creator when selecting appearance
+     game_setup = { #Portraits added here will be the possible leader selection in the horrors creator
+       add = {
+         portraits = {
+			jerry_default
+			jerry_cat_ears
+			jerry_casual_big_forehead
+			jerry_tan
+			jerry_washing_machine
+			jerry_jello_jar
+			jerry_alice_2
+			jerry_alice_tan_glasses_smile
+		 }
+       }
+     }  
+	 
+    #pop scope
+    pop = { #for a specific pop (Such as on a planet)
+		add = {
+			portraits = {
+				jerry_sk1
+				jerry_sk2
+				jerry_sk3
+				jerry_sk4
+				jerry_sk5
+				jerry_sk6
+			}
+       }
+    }
+     #leader scope
+     leader = { #scientists, generals, admirals, governor
+       add = {
+         portraits = {
+			jerry_default
+			jerry_cat_ears
+			jerry_casual_big_forehead
+			jerry_tan
+			jerry_washing_machine
+			jerry_jello_jar
+			jerry_alice_2
+			jerry_alice_tan_glasses_smile
+         }
+       }
+     }
+     #leader scope
+     ruler = { #New rulers selected from here
+		add = {
+         portraits = {
+			jerry_default
+			jerry_cat_ears
+			jerry_casual_big_forehead
+			jerry_tan
+			jerry_washing_machine
+			jerry_jello_jar
+			jerry_alice_2
+			jerry_alice_tan_glasses_smile
+         }
+		}
+       }
+     }
+
+}

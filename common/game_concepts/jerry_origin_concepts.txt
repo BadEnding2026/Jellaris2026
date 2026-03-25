@@ -1,0 +1,3 @@
+concept_jerry_origin = {
+	icon = "gfx/event_pictures/origins/jerry_origin.dds"
+}

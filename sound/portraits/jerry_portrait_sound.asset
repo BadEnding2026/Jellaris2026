@@ -1,0 +1,18 @@
+sound = { name = "awawawa" file = "portrait_sound/awawawa.wav" }
+
+soundeffect = {
+    name = awawa_greetings
+    volume = 0.7
+    sounds = {
+        sound = awawawa
+        }
+}
+
+}
+category = {
+    name = "jerry_greetings"
+    soundeffects = {
+        awawa_greetings
+      
+    }
+}

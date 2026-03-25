@@ -1,0 +1,14 @@
+# Generated species derive their names from here
+
+### CosmicHorrors
+
+JERRY = {
+	jerry = {
+		name = SPEC_Jello
+		plural = SPEC_Jello_pl
+		home_planet = SPEC_Jello_planet
+		home_system = SPEC_Jello_system
+		name_list = "MOL1"
+	}
+
+}

@@ -1,0 +1,15 @@
+origin_jerry = {
+	description = "origin_tooltip_jerry_effects"
+	picture = GFX_jerry_origin
+	max_once_global = yes
+	is_origin = yes
+	modifier = {
+		
+	}
+	possible = {
+		species_archetype = { value = JERRY }
+		is_dictatorial_authority = yes
+	}
+}
+
+

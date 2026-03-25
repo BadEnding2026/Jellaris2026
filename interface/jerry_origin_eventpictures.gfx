@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_jerry_origin"
+		texturefile = "gfx/event_pictures/origins/jerry_origin.dds"
+		alwaystransparent = yes
+	}
+}

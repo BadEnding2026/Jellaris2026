@@ -1,0 +1,23 @@
+#	portraits, list portrait keys
+
+JERRY = {	
+	randomized = yes
+	possible = { 
+		authority = { 
+			NOT = {
+				value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE 
+			} 
+		}
+	}
+
+	# portraits = {
+	# 	"jerry"
+
+	# }
+	# non_randomized_portraits = {
+	# 	"jerry"
+
+	# }
+	graphical_culture = jerry_01 
+	archetype = BIOLOGICAL
+}
